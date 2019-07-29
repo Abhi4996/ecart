@@ -49,7 +49,7 @@ if (isset($_POST["register"]) && !empty($_POST["register"])) {
 			}*/
 
 			if ($result->num_rows > 0) {
-				$email_error = "Email already exists";
+				$email_error = "Email is already taken";
 				$is_valid = false;
 			}
 		}
