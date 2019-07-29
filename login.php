@@ -15,7 +15,7 @@ $pwd_error = '';
 if (isset($_POST["login"]) && !empty($_POST["login"])) {
 	$is_valid = true;
 	if (empty($email)) { //Check whether email is blank or not
-		$email_error = "Please give email";
+		$email_error = "Please enter email";
 		$is_valid = false;
 	} else {
 		$is_valid_email = filter_var($email, FILTER_VALIDATE_EMAIL);
@@ -34,7 +34,7 @@ if (isset($_POST["login"]) && !empty($_POST["login"])) {
 	}
 
 	if (empty($pwd)) {
-		$pwd_error = "Please give password";
+		$pwd_error = "Please enter password";
 		$is_valid = false;
 	}
 

@@ -56,12 +56,12 @@ if (isset($_POST["register"]) && !empty($_POST["register"])) {
 	}
 
 	if (empty($phone)) {
-		$phone_error = "Please give phone number";
+		$phone_error = "Please enter phone number";
 		$is_valid = false;
 	}
 	
 	if (empty($pwd)) {
-		$pwd_error = "Please give password";
+		$pwd_error = "Please enter password";
 		$is_valid = false;
 	}
 	
