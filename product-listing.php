@@ -11,49 +11,6 @@ include "partials/header.php";
 		$low=$prices['0'];
 		$high=$prices[$length-1];
 		$interval=ceil(($high-$low)/3);
-		/*echo $interval;*/
-
-		/*echo "<pre>";
-		print_r($prices);
-		echo "</pre>";
-		die();*/
-
-/*if(isset($_POST["add_to_cart"]))
-{
-	if(isset($_SESSION["shopping_cart"]))
-	{
-		$item_array_id = array_column($_SESSION["shopping_cart"], "item_id");
-		if(!in_array($_GET["id"], $item_array_id))
-		{
-			$count = count($_SESSION["shopping_cart"]);
-			$item_array = array(
-				'item_id'			=>	$_GET["id"],
-				'item_name'			=>	$_POST["hidden_name"],
-				'item_price'		=>	$_POST["hidden_price"],
-			);
-			$_SESSION["shopping_cart"][$count] = $item_array;
-			$_SESSION["success_message"] = "Product successfully added to Cart.";
-			header("Location: product-listing.php");
-			exit;
-		}
-		else
-		{
-			$_SESSION["success_message"] = "Item already added to Cart.";
-			header("Location: product-listing.php");
-			exit;
-		}
-	}
-	else
-	{
-		$item_array = array(
-			'item_id'			=>	$_GET["id"],
-			'item_name'			=>	$_POST["hidden_name"],
-			'item_price'		=>	$_POST["hidden_price"],
-		);
-		$_SESSION["shopping_cart"][0] = $item_array;
-	}
-}*/
-
 ?>
 
 <?php include "partials/message.php"; ?>

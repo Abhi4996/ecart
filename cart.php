@@ -81,6 +81,18 @@ $prodId = $_COOKIE['products'];
 			var $element = $(e.currentTarget);
 			var product_id = $element.data("id");
 			console.log(product_id);
+
+			var productArr = $.parseJSON(productStr);
+			var index = productArr.indexOf(product_id);
+			if (index > -1) {
+			  productArr.splice(index, 1);
+			}
+
+			console.log(productArr);
+			productArr = JSON.stringify(productArr);
+			setCookie('products',productArr,10);
+			window.location.reload();
+
 		}
 	</script>
 
