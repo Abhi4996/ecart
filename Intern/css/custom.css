@@ -1,0 +1,56 @@
+body {
+	background-color: #D6EAF8;
+}
+#nav0 {
+	margin-bottom: 0;
+}
+#nav1 {
+	background-color: #C0C0C0;
+	padding: 0;
+	margin-bottom: 0;
+}
+#navbar {
+	background-color: #D3D3D3;
+	margin-bottom: 0;
+}
+#nav3 {
+	padding-left: 5px;
+	font-weight: bold;
+}
+#nav4 {
+	float: left;
+	margin-left: 20px;
+}
+#search {
+	background-color: #ff4d4d;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 40px;
+}
+#profIcon {
+	margin-right: 10px;
+	font-size: 18px;
+	padding-bottom: 2px;
+	color: black;
+}
+#cartIcon {
+	font-size: 18px;
+	padding-bottom: 2px;
+	color: black;
+}
+/*.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}*/

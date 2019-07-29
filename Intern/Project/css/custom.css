@@ -1,0 +1,26 @@
+#nav0 {
+	margin-bottom: 0;
+}
+#nav1 {
+	background-color: #C0C0C0;
+	padding: 0;
+	margin-bottom: 0;
+}
+#navbar {
+	background-color: white;
+	margin-bottom: 0;
+}
+#nav3 {
+	padding-left: 5px;
+	font-weight: bold;
+}
+#nav4 {
+	float: left;
+	margin-left: 20px;
+}
+#cartIcon {
+	font-size: 18px;
+	padding-bottom: 2px;
+	color: black;
+}
+
